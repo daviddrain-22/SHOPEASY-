@@ -18,7 +18,6 @@ body {
 }
 
 .logo {
-  width: 60px;
   margin-bottom: 5px;
 }
 
@@ -38,6 +37,7 @@ h1 {
   color: #28a745;
   text-decoration: none;
   font-weight: 500;
+  
 }
 
 .login-form {
@@ -70,6 +70,13 @@ h1 {
   font-weight: bold;
   cursor: pointer;
   font-size: 16px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.login-btn:hover{
+    background: #000000;
+    color: #f7a700;
+    border-radius: 20px;
 }
 
 .terms {
@@ -108,6 +115,104 @@ h1 {
 }
 
 .footer img {
-  width: 24px;
   margin-right: -5px;
+}
+
+/*Section*/
+
+.sign_up{
+    width: 400px;
+    height: 80vh;
+    margin-left: 10%;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    
+}
+
+.sign_up_container{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0;
+    position: relative;
+    
+}
+
+.sign_up_top{
+    text-align: center;
+}
+
+
+.sign_up_top img{
+    margin-top: 5px;
+}
+
+.sign_up_top h3{
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: 600;
+}
+
+.sign_up_top p{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sign_up_box{
+    height: 50%;
+}
+
+
+.sign_up_box label{
+    color: #f7a700;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 5px;
+    
+
+}
+
+.sign_up_box input{
+    height: 35px;
+    width: 95%;
+    border: 1px solid #aaa;
+    margin: 5px;
+}
+
+.Btn{
+    text-align: center;
+    height: 40px;
+    width: 97%;
+    border: none;
+    outline: none;
+    background: #f7a700;
+    margin-left: 5px;
+    margin-top: 10px;
+    color: #fff; 
+    font-size: 15px;  
+    font-weight: 600;
+    cursor: pointer;
+   
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+}
+
+.Btn:hover{
+    background: #000000;
+    color: #f7a700;
+    border-radius: 20px;
+}
+
+.sign_up_buttom{
+    text-align: center;
+}
+
+.sign_up_buttom p{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.sign_up_buttom img{
+    margin-top: 30px;
 }
