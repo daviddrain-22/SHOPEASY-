@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Checkout - Shopeasy</title>
+  <link rel="stylesheet" href="checkout.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="checkout-header">
+    <div class="back-button">&#8592;</div>
+    <div class="logo"><img src="shopeasyll.png" alt="Logo"></div>
+    <div class="profile-icon">👤</div>
+  </header>
+
+  <main class="checkout-container">
+    <h2>Checkout</h2>
+    
+    <div class="checkout-box">
+      <form>
+        <!-- Payment Method -->
+        <div class="section">
+          <h3>Payment Method</h3>
+          <label><input type="radio" name="payment" checked> Credit Card</label>
+          <label><input type="radio" name="payment"> Debit Card</label>
+          <label><input type="radio" name="payment"> PayPal</label>
+        </div>
+
+        <!-- Card and Address Details -->
+        <div class="details-grid">
+          <!-- Card Details -->
+          <div class="details">
+            <h4>Card Details</h4>
+            <input type="text" placeholder="Card Number">
+            <div class="split-input">
+              <input type="text" placeholder="Expiry Date">
+              <input type="text" placeholder="CVV">
+            </div>
+            <input type="text" placeholder="Name on Card">
+          </div>
+
+          <!-- Address Details -->
+          <div class="details">
+            <h4>Address Details</h4>
+            <input type="text" placeholder="Address">
+            <div class="split-input">
+              <input type="text" placeholder="State">
+              <input type="text" placeholder="City">
+            </div>
+            <input type="text" placeholder="Zip Code">
+          </div>
+        </div>
+
+        <button class="apply-button" type="submit">Apply</button>
+      </form>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="logo">
+        <img src="shopeasyll.png" alt="Shopeasy"> 
+        <p>Your everyday essentials, just a click way.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Shop</h4>
+          <a href=""><p>All Categories</p></a>
+          <a href=""><p>Deals & Offers</p></a>
+          <a href=""><p>Fresh Produce</p></a>
+          <a href=""><p>Pantry Essentials</p></a>
+          <a href=""><p>Household Essentials</p></a>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <a href=""><p>Customer Support</p></a>
+          <a href=""><p>Delivery Information</p></a>
+          <a href=""><p>FAQ</p></a>
+          <a href=""><p>Contact Us</p></a>
+        </div>
+        <div>
+            <h4>Subscribe</h4>
+          <p>Get weekly updates on new products and special offers.</p>
+          <input class="feet" type="email" placeholder="Your email address">
+          <button class="subscribe">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
