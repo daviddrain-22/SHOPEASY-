@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="logo.png" alt="Logo" class="logo" />
+    </div>
+    <div class="header-right">
+      <span class="profile-icon">👤</span>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="cart-header">
+      <h2>Your Cart (4)</h2>
+      <button class="clear-btn">🗑️ Clear All</button>
+    </div>
+
+    <div class="cart-item">
+      <img src="https://via.placeholder.com/60" alt="Product" />
+      <div class="item-info">
+        <p class="item-name">Chicken Caesar Salad</p>
+        <div class="quantity-controls">
+          <button>-</button>
+          <span>2</span>
+          <button>+</button>
+        </div>
+      </div>
+      <div class="item-price">$14.99</div>
+      <button class="remove">✖</button>
+    </div>
+
+    <section class="delivery">
+      <h3>Delivery</h3>
+      <label><input type="radio" name="delivery" checked /> Standard (Free)</label>
+      <label><input type="radio" name="delivery" /> Express ($3.99)</label>
+
+      <div class="delivery-address">
+        <p>123 Avenue Street, City <a href="#">Change</a></p>
+        <p class="delivery-time">Today, 3PM - 6PM</p>
+      </div>
+    </section>
+
+    <section class="promo-code">
+      <input type="text" placeholder="Enter Promo Code" />
+      <button>Apply</button>
+    </section>
+
+    <section class="summary">
+      <div><span>Subtotal</span><span>$29.98</span></div>
+      <div><span>Delivery</span><span>Free</span></div>
+      <div class="total"><strong>Total</strong><strong>$29.98</strong></div>
+    </section>
+
+    <button class="checkout-btn">Proceed to Checkout</button>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-logo">
+      <img src="logo.png" alt="Logo" class="logo" />
+    </div>
+    <div class="footer-links">
+      <div class="footer-section">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">All Products</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Help</h4>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-section">
+        <h4>Subscribe</h4>
+        <form class="subscribe-form">
+          <input type="email" placeholder="Enter your email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
