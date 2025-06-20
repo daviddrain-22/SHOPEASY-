@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f7f3f0;
+  padding: 10px 20px;
+}
+.header img{
+    margin-left: -1050px;
+    height: 28px;
+}
+.back-arrow {
+  font-size: 22px;
+  color: #333;
+  text-decoration: none;
+}
+
+.logo {
+  height: 40px;
+}
+
+.cart-icon {
+  font-size: 24px;
+}
+
+.account-section {
+  padding: 30px 20px;
+}
+
+.account-section h2 {
+  font-size: 20px;
+  color: #222;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+
+.account-box {
+  background-color: #f9f7f5;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.account-box label {
+  display: block;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #444;
+}
+
+.account-box input {
+  width: 95%;
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+.change-password {
+  display: flex;
+  justify-content: end;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #27ae60;
+  text-decoration: none;
+  margin-right: 35px;
+}
+
+footer {
+  background: white;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-top: 1px solid #ddd;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-links div h4 {
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.footer-links div p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer-links input {
+  padding: 8px;
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.subscribe {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  width: 96%;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.checkout-header .logo img {
+  height: 40px; /* This controls the logo size */
+  margin-right: 8px;
+}
+
+.footer-top .logo img {
+    height: 40px; 
+  margin-right: 2px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+p{
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
