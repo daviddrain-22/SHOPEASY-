@@ -179,7 +179,7 @@ justify-content: center;
 .summary div {
   display: flex;
   justify-content: space-between;
-  margin-bottom: ;
+  
 }
 .summary span{
   margin-bottom: -70px;
@@ -206,7 +206,7 @@ h3{
 }
 
 footer {
-  background: white;
+  background: rgb(15, 175, 0);
   padding: 2rem;
   margin-top: 3rem;
   border-top: 1px solid #ddd;
