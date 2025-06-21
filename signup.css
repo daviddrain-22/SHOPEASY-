@@ -73,7 +73,12 @@ h1 {
   border-radius: 6px;
   cursor: pointer;
   margin-top: 10px;
-  transition: background 0.3s;
+  transition: 0.3s;
+}
+
+.signup-form button a {
+  color: white;
+  text-decoration: none;
 }
 
 .signup-form button:hover {
