@@ -1,0 +1,389 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body {
+  background: rgb(227, 222, 222);
+  color: #333;
+}
+
+.header {
+  background-image: 
+   linear-gradient(to right, rgba(229, 229, 234, 0.877) 0%, rgba(226, 226, 238, 0) 50%), url('bar\ -\ Copy.jpg'); 
+  padding: 20px;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+}
+
+.top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: wh;
+}
+.top input{
+  margin-left: 60px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  width: 65%;
+}
+.icons{
+  margin-top: -45px;
+  margin-bottom: 20px;
+}
+.top{
+  background-color: rgb(227, 222, 222);
+}
+.top img{
+  height: 30px;
+  margin-bottom: -12px;
+  margin-left: 20px;
+}
+.cart-icon{
+  display: flex;
+  justify-content: end;
+  margin-top: -27px;
+  margin-right: 100px;
+  font-size: 25px;
+ cursor: pointer;
+}
+.profile-icon{
+  display: flex;
+  justify-content: end;
+  font-size: 25px;
+   margin-top: -30px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.logo {
+  height: 40px;
+}
+
+.search-bar {
+  flex: 1;
+  margin: 0 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  width: 1;
+}
+
+.icons img {
+  margin-left: 10px;
+  height: 24px;
+}
+
+.hero {
+  margin-top: 40px;
+}
+
+.hero h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  color: black;
+}
+
+.category-bar img{
+  margin-bottom: 20px;
+  margin-left: -20px;
+  height: 25px;
+}
+.categories {
+  margin-right: 80px;
+  margin-left: -120px;
+}
+.categories span{
+   margin-right: 80px;
+  margin-left: -120px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  background: green;
+  color: black;
+  border-radius: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.btn.secondary {
+  background: transparent;
+  border: 1px solid white;
+}
+
+.category-bar {
+  background: rgb(227, 222, 222);;
+  padding: 20px;
+  text-align: center;
+}
+
+.categories span {
+  margin: 2px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.promo-banner {
+ background-image:    linear-gradient(to right, rgba(8, 8, 32, 0.877) 0%, rgba(226, 226, 238, 0) 50%), url(promoo.jpg);
+  padding: 35px;
+  font-size: 14px;
+  border-radius: 10px;
+  width: 90%;
+  margin-left: 40px;
+   background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.promo-banner p{
+  font-size: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.product-section {
+  padding: 20px;
+  overflow-x: auto;
+}
+
+.product-section h2 {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  margin-bottom: 10px;
+  margin-left: 22px;
+}
+
+.products {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  overflow-x: auto;
+}
+
+.product-card {
+  background: white;
+  padding: px;
+  border-radius: 10px;
+  width: 180px;
+  text-align: center;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  margin-left: 20px;
+}
+
+.product-card h5{
+  margin-left: -px;
+  margin-top: px;
+  margin-bottom: 3px;
+  display: flex;
+  
+}
+.product-card h4{
+   margin-left: -110px;
+   margin-right: 5px;
+}
+.product-card h6{
+  margin-top: -20px;
+  margin-left: -30px;
+  text-decoration: line-through;
+}
+.product-card p{
+  margin-right: 122px;
+  margin-bottom: 20px;
+  font-size: 15px;
+  display: flex ;
+}
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: px;
+  height: 150px;
+}
+
+.product-card button {
+  background: green;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  margin-top: -50px;
+  margin-bottom: 5px;
+  margin-left: 120px;
+  transform: translateY(-10px);
+  height: 40px;
+  width: 40px;
+}
+
+.delivery-check {
+  background: white;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 90%;
+ margin-left: 50px;
+  
+}
+.delivery-check .deli{
+  height: 130px;
+  width: 40%;
+}
+
+
+.delivery-check input {
+  padding: 10px;
+  width: 40%;
+  margin-top: -30px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-left: 45px;
+}
+
+.delivery-check h3{
+  margin-left: -600px;
+  font-size: 30px;
+}
+.delivery-check p{
+  margin-left: -520px;
+  margin-bottom: -30px;
+  font-size: 20px;
+}
+.btn.check {
+  background: #16a34a;
+  margin-left: 10px;
+}
+
+.shop-by-category {
+  padding: 20px;
+}
+
+.category-tiles {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.tile {
+  background: #010813;
+  padding: 20px;
+  flex: 1;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  background-image: url(bread.jpg);
+  height: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+footer {
+  background: white;
+  padding: 2rem;
+  margin-top: 3rem;
+  border-top: 1px solid #ddd;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-links div h4 {
+  margin-bottom: 8px;
+  margin-left: 10px;
+}
+
+.footer-links div p {
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer-links input {
+  padding: 8px;
+  margin-top: 10px;
+  width: 90%;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-left: 10px;
+}
+
+.subscribe {
+  margin-top: 10px;
+  padding: 8px;
+  background-color: #28a745;
+  border: none;
+  color: white;
+  width: 96%;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-left: 10px;
+}
+.checkout-header .logo img {
+  height: 40px; /* This controls the logo size */
+  margin-right: 8px;
+}
+
+.footer-top .logo img {
+    height: 40px; 
+  margin-right: 2px;
+  margin-top: 20px;
+  margin-bottom: -10px;
+}
+p{
+    font-size: 15px;
+    margin-left: 10px;
+    
+}
+a{
+    text-decoration: none;
+}
+
+.footer-note {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 12px;
+}
+.shop-by-category p{
+  color: #000000d4;
+  padding: 100px;
+  font-size: 20px;
+}
+#fru {
+  background-image: url(Screenshot\ 2025-06-21\ 020202.png);
+}
+#Turkey {
+  background-image: url(beeef.jpg);
+}
+#dairy{
+  background-image: url(dairyyy.jpg);
+}
+
+.product-section span{
+  font-size: 16px;
+  cursor: pointer;
+  color: orange;
+}

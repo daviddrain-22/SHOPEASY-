@@ -285,7 +285,7 @@ body {
   text-align: center;
   border-radius: 10px;
   font-weight: bold;
-  background-image: url(bread.jpg);
+  background-image: url(Assets\bread.jpg);
   height: 30px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -373,17 +373,95 @@ a{
   font-size: 20px;
 }
 #fru {
-  background-image: url(Screenshot\ 2025-06-21\ 020202.png);
+  background-image: url(Assets\banana.jpg);
 }
 #Turkey {
-  background-image: url(beeef.jpg);
+  background-image: url(Assets\chicken.jpg);
 }
 #dairy{
-  background-image: url(dairyyy.jpg);
+  background-image: url(Assets\dairy.jpeg);
 }
 
 .product-section span{
   font-size: 16px;
   cursor: pointer;
   color: orange;
+}
+.shop-by-category {
+  padding: 20px;
+}
+
+.category-tiles {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.tile {
+  position: relative;
+  padding: 20px;
+  flex: 1;
+  height: 150px;
+  min-width: 200px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  background-size: 110%;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: transform 0.4s ease, background-size 0.4s ease;
+}
+
+.tile::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(43, 39, 39, 0.4); /* dark overlay */
+  border-radius: 10px;
+  z-index: 0;
+  transition: background 0.3s ease;
+}
+
+.tile p {
+  position: relative;
+  z-index: 1;
+  font-size: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Hover Effects */
+.tile:hover {
+  background-size: 120%;
+  transform: scale(1.03);
+}
+
+.tile:hover::before {
+  background: rgba(43, 39, 39, 0.4);
+}
+
+.tile:hover p {
+  transform: scale(1.05);
+}
+
+/* Background Images */
+#fru {
+  background-image: url('Assets\banana.jpg'); /* adjust as needed */
+}
+
+#Turkey {
+  background-image: url('Assets\turkey.jpg');
+}
+
+#dairy {
+  background-image: url('Assets\dairy.jpeg');
+}
+
+#bakery {
+  background-image: url('Assets\bread.jpg');
 }
