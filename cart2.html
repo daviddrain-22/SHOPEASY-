@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Cart</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="cart2.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="header-left">
+      <img src="Assets/shopeasy (2).png" alt="Logo" class="logo" />
+    </div>
+    <div class="header-right">
+      <a href="accountD.html">
+      <span class="profile-icon">👤</span>
+      </a>
+    </div>
+  </header>
+
+  <main class="container">
+    <div class="cart-header">
+      <h2>Your Cart (4)</h2>
+      <button class="clear-btn">🗑️ Clear All</button>
+    </div>
+
+    <div class="cart-item">
+      <img src="Assets/bread.jpg" alt="Product" />
+      <div class="item-info">
+        <p class="item-name">Whole Wheat Bread</p>
+        <p>1 loaf</p>
+        <h4 class="item-price">₦900 <sup class="strike">₦1000</sup></h4>
+      </div>
+      
+     
+    </div>
+        <div class="quantity-controls">
+          <label>
+    Quantity:
+    <input type="number" name="qty" value="1" min="0" max="99">
+  </label>
+     <button class="remove">✖</button>
+        </div>
+      
+        <br><br>
+       <div class="cart-item">
+      <img src="Assets/burger.jpg" alt="Product" />
+      <div class="item-info">
+        <p class="item-name">Burger</p>
+        <p>6 pieces</p>
+        <h4 class="item-price">₦1200<sup class="strike">₦1400</sup></h4>
+      </div>
+      
+     
+    </div>
+        <div class="quantity-controls">
+          <label>
+    Quantity:
+    <input type="number" name="qty" value="1" min="0" max="99">
+  </label>
+     <button class="remove">✖</button>
+        </div>
+      
+    
+ <br><br>
+       <div class="cart-item">
+      <img src="Assets/beef.jpg" alt="Product" />
+      <div class="item-info">
+        <p class="item-name">Frozen Beef</p>
+        <p>1 kilo</p>
+        <h4 class="item-price">₦3000<sup class="strike">₦3400</sup></h4>
+      </div>
+      
+     
+    </div>
+        <div class="quantity-controls">
+          <label>
+    Quantity:
+    <input type="number" name="qty" value="1" min="0" max="99">
+  </label>
+     <button class="remove">✖</button>
+        </div>
+
+
+
+    <br><br>
+       <div class="cart-item">
+      <img src="Assets/banana.jpg" alt="Product" />
+      <div class="item-info">
+        <p class="item-name">Banana</p>
+        <p>1 bunch</p>
+        <h4 class="item-price">₦900<sup class="strike">₦1000</sup></h4>
+      </div>
+      
+     
+    </div>
+        <div class="quantity-controls">
+          <label>
+    Quantity:
+    <input type="number" name="qty" value="1" min="0" max="99">
+  </label>
+     <button class="remove">✖</button>
+        </div>
+
+
+    <section class="delivery">
+      <h3>Delivery Options</h3>
+      <label><input type="radio" name="delivery" checked /> <strong>Standard Delivery</strong></label>
+      <p>Delivery within 2 to 3 hours</p>
+      <h4>₦500</h4>
+    
+      <label><input type="radio" name="delivery" checked /> <strong>Express Delivery</strong></label>
+      <p>Delivery within 1 hour</p>
+      <h4>₦1500</h4>
+
+      <hr>
+
+      <div class="delivery-address">
+        <h3>Delivery Address</h3>
+        <p>123 Avenue Street, City <br> <a class="deli" href="#">Change</a></p>
+        <h3>Delivery Time</h3>
+        <p class="delivery-time">Today, 3PM - 6PM</p>
+      </div>
+    </section>
+
+    <h3>Promo Code</h3>
+    <section class="promo-code">
+      <input type="text" placeholder="Enter Promo Code" />
+      <button>Apply</button>
+    </section>
+
+    <section class="summary">
+      <h3>Order Summary</h3>
+      <div><span>Subtotal</span><span>₦6500</span></div>
+      <div><span>Delivery</span><span>Free</span></div>
+      <hr>
+      <div class="total"><strong>Total</strong><strong>₦6500</strong></div>
+    </section>
+
+    <a href="checkout.html">
+    <button class="checkout-btn">Proceed to Checkout</button>
+    </a>
+  </main>
+
+   <footer class="footer">
+    <div class="footer-top">
+      <div class="logo">
+        <img src="Assets/shopeasy (2).png" alt="Shopeasy"> 
+        <p>Your everyday essentials, just a click way.</p>
+      </div>
+      <div class="footer-links">
+        <div>
+          <h4>Shop</h4>
+          <a href=""><p>All Categories</p></a>
+          <a href=""><p>Deals & Offers</p></a>
+          <a href=""><p>Fresh Produce</p></a>
+          <a href=""><p>Pantry Essentials</p></a>
+          <a href=""><p>Household Essentials</p></a>
+        </div>
+        <div>
+          <h4>Help</h4>
+          <a href=""><p>Customer Support</p></a>
+          <a href=""><p>Delivery Information</p></a>
+          <a href=""><p>FAQ</p></a>
+          <a href=""><p>Contact Us</p></a>
+        </div>
+        <div>
+            <h4>Subscribe</h4>
+          <p>Get weekly updates on new products and special offers.</p>
+          <input class="feet" type="email" placeholder="Your email address">
+          <button class="subscribe">Subscribe</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
