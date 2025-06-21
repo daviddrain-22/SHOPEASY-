@@ -15,10 +15,10 @@ body {
   border-bottom: 1px solid #eee;
 }
 span{
-  height: 100px;
+  height: 150px;
 }
 .logo {
-  height: 30px;
+  height: 60px;
 }
 
 .container {
@@ -262,7 +262,7 @@ footer {
 }
 
 .footer-top .logo img {
-    height: 40px; 
+    height: 80px; 
   margin-right: 2px;
   margin-top: 20px;
   margin-bottom: -10px;
