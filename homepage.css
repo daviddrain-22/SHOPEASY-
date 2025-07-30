@@ -442,7 +442,7 @@ a{
 }
 
 .tile:hover::before {
-  background: rgba(43, 39, 39, 0.4);
+  background: rgba(43, 39, 39, 0);
 }
 
 .tile:hover p {
